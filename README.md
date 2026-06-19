@@ -22,8 +22,16 @@ A single model can be confidently wrong. TETRA treats four frontier models as a 
 ### 🔮 3D Consensus Map
 Every case becomes a constellation: the four models orbit a central **consensus core**, with green threads where they agree and red where they dissent. Distance from the core encodes how contested an answer is — agreement pulls inward, conflict drifts to the shell.
 
+<p align="center">
+  <img src="screenshot_consensus_bubble.png" alt="TETRA Consensus Bubble — agreement map across four models" width="100%">
+</p>
+
 ### 🌌 Cohort Explorer — scales to thousands
 A GPU point-cloud of an entire case cohort. Each dot is one case, colored by agreement. Unanimous decisions pack into a dense core; contested cases fan toward the models that argued them. **Orbit** it, or **Walk In** for a first-person fly-through (WASD + mouse-look).
+
+<p align="center">
+  <img src="screenshot_cohort_explorer.png" alt="TETRA Cohort Explorer — 1,000 cases across four models" width="100%">
+</p>
 
 ### 🔍 Search Lens & Charts
 Type a topic ("CKD", "statin") to light up its agreements or disagreements, and read the same scope as a pie / histogram — the numbers and the space update in lockstep.
